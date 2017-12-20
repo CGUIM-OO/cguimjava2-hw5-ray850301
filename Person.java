@@ -8,7 +8,7 @@ public abstract class Person {
 	public ArrayList<Card> getOneRoundCard(){
 		return oneRoundCard;
 	}
-	public abstract boolean hit_me(Table table);
+	public abstract boolean hit_me(Table tbl);
 	public int getTotalValue() {
 		int Ace_count = 0;
 		int total_value = 0;
